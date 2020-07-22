@@ -17,7 +17,7 @@ async def main(request):
 
     # our authentication token and secret
     secret = os.environ.get("GH_SECRET")
-    oauth_token = os.environ.get("GH_AUTH")
+    oauth_token = os.environ.get("GH_TOKEN")
 
     print(secret)
     print(oauth_token)
